@@ -4,11 +4,11 @@ import android.support.annotation.NonNull;
 
 public interface BaseContract {
 
-    public interface BaseView {
+    interface BaseView {
         void showError(@NonNull String error);
     }
 
-    public interface BasePresenter<T> {
+    interface BasePresenter<T> {
         void cleanUp();
     }
 
